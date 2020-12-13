@@ -19,7 +19,7 @@ var vm = new Vue({
 						+"/"+xBin+"/"+yBin+"/tile_"+coords.x+"_"+coords.y+"."+this.imageFormat;
 				},
 				getAttribution: function() {
-					return '<a href="https://github.com/tectonicus/tectonicus">Tectonicus</a> - ' + this.mapName;
+					return 'Rendered By: <a href="https://connorcode.com">Sigma#8214</a>';
 				},
 				initialize: function(mapId, layerId, imageFormat, mapName, backgroundColor) {
 					this.mapId = mapId;

@@ -20,7 +20,7 @@ var contents =
 			{
 				id: "LayerA",
 				name: "Day",
-				backgroundColor: "#e5e3df",
+				backgroundColor: "#333333",
 				imageFormat: "png",
 				isPng: "true"
 			}
